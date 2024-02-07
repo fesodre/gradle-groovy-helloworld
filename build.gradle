@@ -6,7 +6,6 @@ repositories {
 
 dependencies {
     // Add JUnit dependency for testing (optional)
-    testCompile 'junit:junit:4.12'
     implementation 'org.apache.commons:commons-lang3:3.0'
 }
 
