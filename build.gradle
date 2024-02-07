@@ -14,11 +14,3 @@ jar {
         attributes 'Main-Class': 'com.example.HelloWorld'
     }
 }
-
-
-def printProjectFiles(Project project) {
-    println "project_path|${project.getPath()}|${project.buildFile}"
-}
-
-printProjectFiles rootProject 
-rootProject.subprojects.each { sub -> printProjectFiles(sub) }
